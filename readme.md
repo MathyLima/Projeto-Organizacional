@@ -32,3 +32,6 @@ Este projeto é um sistema organizacional inspirado no Trello, desenvolvido com 
 1. Clone o repositório para o seu ambiente local.
    ```bash
    git clone https://github.com/seu-usuario/sistema-organizacional.git
+
+
+# STATUS: EM ANDAMENTO
