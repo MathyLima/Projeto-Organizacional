@@ -1,0 +1,100 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#dataUsuario {
+    width: 20%;
+    height: 100%;
+    background-color: #262b37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerBotoes{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.botoes{
+    width: 90%;
+    height: 25%;
+    border:1px solid black;
+    border-radius: 3rem;
+    transition: transform 1s ease,background-color 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+    color: whitesmoke;
+}
+.botoes i{
+    width:3rem;
+    height:3rem;
+    border-radius:50%;
+    background-color:whitesmoke;
+    font-size:2rem;
+    color:#262b37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #181c24;
+}
+
+#container {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#cardsContainer{
+    width: 100%;
+    height: 90%;
+    max-height: 100%;
+    overflow-y: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Altere para flex-start */
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 30%;
+    background-color: antiquewhite;
+    border-radius: 3rem;
+    padding: 1rem;
+    min-height: 30%; /* Defina uma altura mínima */
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+}
