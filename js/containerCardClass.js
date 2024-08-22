@@ -19,6 +19,8 @@ class ContainerCard{
         elemento.innerHTML = innerHTML
         return elemento;
     }
+
+
     criarBotaoControleCard(iconClass,onClickFunction){
         const botao = this.criarElemento('div',['botoesControleCard']);
         const icon = this.criarElemento('i',[iconClass])
@@ -68,11 +70,11 @@ class ContainerCard{
     }
 
     removerCartao() {
-        console.log(`Remover card: ${this.titulo}`);
         this.elemento.remove();
     }
 
     render(container){
         container.appendChild(this.elemento)
     }
+    
 } 
