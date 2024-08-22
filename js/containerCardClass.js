@@ -3,7 +3,6 @@ class ContainerCard{
 
         this.titulo = titulo;
         this.elemento = this.criarCard();
-    
     }
     
     criarElemento(tag,classes=[],innerHTML=''){
@@ -76,5 +75,5 @@ class ContainerCard{
     render(container){
         container.appendChild(this.elemento)
     }
-    
+
 } 

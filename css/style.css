@@ -104,13 +104,55 @@ body {
 .cobreTela{
     width: 100%;
     height: 100%;
-    background-color: whitesmoke;
-    opacity: .2;
+    background-color: rgb(91, 89, 89,.2);
     position: absolute;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
-    filter: blur(2px);
 }
+
+
+#formContainer{
+    width: 70%;
+    height: 70%;
+    background-color: #262b37;
+}
+#formContainer h2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #243459;
+    border-bottom: 2px solid black;
+    margin: 0;
+}
+
+#conteudoFormulario{
+    width: 100%;
+    height: 90%;
+    background-color: #262b37;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#camposFormulario{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1rem;
+}
+
+
+
 
 .controlDiv{
     width: 20%;
