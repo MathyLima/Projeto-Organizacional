@@ -59,8 +59,10 @@ class ContainerCard{
 
 
     adicionarTarefa() {
-        console.log(`Adicionar tarefa no card: ${this.titulo}`);
-        // Lógica para adicionar uma tarefa no card
+
+        document.getElementById('criaCard').style.display='flex'
+
+
     }
 
     editarTarefa() {

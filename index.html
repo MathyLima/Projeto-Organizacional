@@ -33,12 +33,24 @@
 
             <div id="formContainer" >
                 <h2>Criar Novo Card</h2>
-                <div id="conteudoFormulario">
+                <form id="conteudoFormulario">
                     <div id="camposFormulario">
-                        <label for="tituloCard">Título do Card:</label>
-                        <input type="text" id="tituloCardForm" name="tituloCard" placeholder="Digite o titulo">
+                        <div id="tituloCardFormDiv" class="divForm">
+                            <label for="tituloCard">Título do Card:</label>
+                            <input type="text" id="tituloCardForm" name="tituloCard" placeholder="Digite o titulo">
+                        </div>
+                        <div id="descricaoCardFormDiv" class="divForm">
+                            <label for="descricaoCard">Descrição</label>
+                            <input type="text" id="tituloCardForm" name="tituloCard" placeholder="Digite o titulo">
+
+                        </div>
+                        
+                        <div id="botoesFormulario" class="divForm">
+                            <button type="submit">Salvar</button>
+                            <button type="button" onclick="fecharFormulario()">Cancelar</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
 
