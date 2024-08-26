@@ -59,11 +59,14 @@ class ContainerCard{
 
 
     adicionarTarefa() {
-
-        document.getElementById('criaCard').style.display='flex'
-
-
+        // Seleciona o elemento de conteúdo do card
+        let cardContainer = this.elemento.querySelector('.conteudo'); // .conteudo para selecionar a classe 'conteudo'
+        
+        let card = new Card(this.elemento)        
+        // Adiciona o novo div ao container de conteúdo
+        cardContainer.appendChild(card.criarCartao());
     }
+    
 
     editarTarefa() {
         console.log(`Editar tarefa no card: ${this.titulo}`);
